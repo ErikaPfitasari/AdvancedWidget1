@@ -10,6 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.erika_moklet.advancedwidget1.MainActivity">
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerJumlahAnak"
+        android:layout_weight="1" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,6 +23,20 @@
         android:text="Name"
         android:ems="10"
         android:id="@+id/etNama"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonProses"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHasil"
         android:layout_weight="1" />
 
     <EditText
